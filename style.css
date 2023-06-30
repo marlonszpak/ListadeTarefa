@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(to right, rgb(53, 127, 176), rgb(64, 242, 233));
+}
+.cabeçalho{
+    margin: 30px 0px;
+}
+.titulo{
+    color: white;
+    border-bottom: 1px solid white;
+}
+.div-adicionar{
+    background-color: rgb(255, 255, 255);
+    width: 700px;
+    height: 60px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.41);
+}
+.escrever-tarefa{
+    width: 600px;
+    height: 45px;
+    border: 1px solid rgba(0, 0, 0, 0.51);
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 0px 10px;
+}
+.erro{
+    border: 2px solid red !important;
+}
+.btn-adicionar{
+    border: none;
+    width: 45px;
+    height: 45px;
+    margin: 0px 10px;
+    background-color: rgb(195, 36, 216);
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-adicionar:hover{
+    color: white;
+    background-color: rgb(119, 9, 146);
+    transition: 200ms;
+}
+.resultado{
+    height: 80vh;
+}
+.tarefa{
+    background-color: rgb(255, 255, 255);
+    width: 700px;
+    height: 60px;
+    border-radius: 10px;
+    margin: 10px 0px;
+    padding: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.41);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.concluida{
+    background-color: rgba(255, 255, 255, 0.495);
+}
+.concluida p{
+    text-decoration: line-through;
+}
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0px 10px;
+}
+.bx-check{
+    border: none;    
+    width: 45px;
+    height: 45px;
+    background-color: rgb(55, 243, 38);
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bx-check:hover{
+    background-color: rgb(24, 130, 20);
+    transition: 200ms;
+}
+.bxs-trash-alt{
+    border: none;
+    width: 45px;
+    height: 45px;
+    background-color: rgb(240, 86, 66);
+    color: white;
+    font-weight: bolder;
+    font-size: 24px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bxs-trash-alt:hover{
+    background-color: rgb(158, 19, 19);
+    transition: 200ms;
+}
